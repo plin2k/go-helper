@@ -167,7 +167,7 @@ func MapSF32Merge (keys []string, values []float32) map[string]float32 {
 }
 
 // map[string]float64
-func MapSF364Merge (keys []string, values []float64) map[string]float64 {
+func MapSF64Merge (keys []string, values []float64) map[string]float64 {
 	var outMap = make(map[string]float64,len(keys))
 	for key, value := range keys {
 		outMap[value] = values[key]
