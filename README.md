@@ -1,7 +1,7 @@
 # go-helper
  go-helper
 
-#Get Keys of map
+# Get Keys of map
 ```go
 package main
 
@@ -31,7 +31,7 @@ func main () {
 }
 ```
 
-#Get Values of map
+# Get Values of map
 ```go
 package main
 
@@ -61,7 +61,7 @@ func main () {
 }
 ```
 
-#Merge Slices to map
+# Merge Slices to map
 ```go
 package main
 
