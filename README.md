@@ -1,6 +1,57 @@
 # go-helper
  go-helper
 
+# String
+```go
+package main
+
+import h "github.com/plin2k/go-helper"
+
+func main () {
+	var arr = [3]string{"sobaka", "sobaki", "sobak"}
+	var strDecl = h.StringDeclension(10, arr)// return string
+    // sobak
+	
+	var str = "hello"
+	var strReverse = h.StringReverse(str)// return string
+    // olleh
+}
+```
+
+# Number
+```go
+package main
+
+import h "github.com/plin2k/go-helper"
+
+func main () {
+	var num = 727178
+	var intEven = h.NumberEvenFromInt(num)// return int
+    // 28
+
+	var num = 727178
+	var numFirst = h.NumberFirstInt(num)// return int
+    // 7
+}
+```
+
+# Slice
+```go
+package main
+
+import h "github.com/plin2k/go-helper"
+
+func main () {
+	var sliceInt = []int{1, 2, 3, 4, 5}
+	var sliceIntNew = h.SliceRemoveIntItem(sliceInt,3)// return []int
+    // []int{1, 2, 3, 5}
+
+	var sliceStr = []string{"one", "two", "three", "four", "five"}
+	var sliceStringNew = h.SliceRemoveStringItem(sliceStr,3)// return []string
+	// []string{"one", "two", "three", "five"}
+}
+```
+
 # Get Keys of map
 ```go
 package main
